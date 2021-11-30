@@ -3,7 +3,7 @@ import meow from 'meow'
 import inquirer from 'inquirer'
 import { execSync } from 'child_process'
 
-import { FRAMEWORKS, CliTool, ALL_CLI_TOOLS } from './options.js' // ts w/o a bundler is hell - https://github.com/nodejs/node/issues/30927
+import { FRAMEWORKS, CliTool, ALL_CLI_TOOLS } from './options.js' // ts w/o a bundler is hell - https://github.com/microsoft/TypeScript/issues/40878
 
 const help = `
   Usage:
