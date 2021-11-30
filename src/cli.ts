@@ -95,7 +95,7 @@ async function run() {
   const { shouldOpenInVsCode } = await inquirer.prompt([
     {
       name: 'shouldOpenInVsCode',
-      type: 'boolean',
+      type: 'confirm',
       message: 'Open the project in VS Code?',
       default: true,
     },
