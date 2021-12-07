@@ -22,8 +22,12 @@ export const FRAMEWORKS: Record<string, Framework> = {
         command: npx('create-remix'),
       },
       {
-        name: 'Next',
+        name: 'Next (JavaScript)',
         command: npx('create-next-app'),
+      },
+      {
+        name: 'Next (TypeScript)',
+        command: npx('create-next-app --ts'),
       },
       {
         name: 'Gatsby',
